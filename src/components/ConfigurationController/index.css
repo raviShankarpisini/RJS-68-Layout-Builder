@@ -1,0 +1,16 @@
+/* Write your CSS here */
+.configuration-container {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  /* height: 25vh; */
+  /* line-height: 1.5; */
+  background-color: #475569;
+  font-family: 'Roboto';
+  color: white;
+}
+
+ul {
+  padding: 0px;
+  list-style-type: none;
+}

@@ -1,0 +1,49 @@
+/* Write your CSS here */
+
+.body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.left-nav-bar {
+  background-color: #e2e8f0;
+  padding: 20px;
+  width: 33.33%;
+}
+
+.nav-heading {
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+
+.content {
+  background-color: #f1f5f9;
+  padding: 15px;
+  width: 33.33%;
+}
+
+.box {
+  height: 80px;
+  width: 80px;
+  border: 1px solid red;
+
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .body {
+    flex-direction: column;
+  }
+  .content {
+    width: 100%;
+  }
+  .left-nav-bar {
+    width: 100%;
+  }
+}
